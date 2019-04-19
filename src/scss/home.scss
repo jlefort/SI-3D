@@ -1,0 +1,193 @@
+    .container {
+
+        background-image: url('./images/bg.png');
+        
+        background-size: 100%;
+        height: 100vh;
+        width: 100vw;
+        
+        .container__intro {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            
+         
+            .intro {
+
+                display: flex;
+                flex-direction: column;
+                margin-top: 350px;
+                margin-right: 80px;
+            
+                .intro__title {
+                    color: white;
+                    font-weight: 500;
+                    font-size: 44px;
+                    width: 600px;
+            
+                }
+                
+
+                .intro__button {
+                    background-color: white;
+                    width: 250px;
+                    border-radius: 7px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 50px;
+                    margin-top: 80px;
+                    
+                    a {
+                       text-decoration: none;
+                   }
+                    
+                    p {
+                        color: black;
+                        text-align: center;
+                        font-size: 24px;
+                        
+                    }
+
+                }
+        
+                .intro__text {
+                    font-weight: 300;
+                    width: 250px;
+                    text-align: center;
+                    font-size: 14px;
+                    margin-top: 10px;
+                    
+                }
+            }
+
+        }
+    }
+
+    .concept {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+        .concept__container {
+
+            display: flex;
+            flex-direction: column;
+            margin-left: 100px;
+
+            .concept__title {
+
+                margin-left: 100px;
+                margin-top: 50px;
+                font-size: 40px;
+                font-weight: 700;
+            }
+    
+            .concept__items {
+    
+                display: flex;
+                flex-direction: row;
+                margin-left: 100px;
+                border: radius 1px grey;
+                width: 560px;
+                height: 130px;
+                margin-top: 100px;
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+        
+    
+                img {
+                    height: 100px;
+                    width: 100px;
+                    margin-top: 18px;
+                    margin-left: 30px;
+                }
+    
+                p {
+                    width: 350px;
+                    margin-top: 20px;
+                    margin-left: 30px;
+                    font-weight: 300;
+                    line-height: 140%;
+    
+                    span {
+                        font-weight: 400;
+                    }
+                }
+            }
+    
+            
+        }
+
+        .concept__guitar {
+            position: relative;
+            width: 700px;
+            
+
+            img {
+                position: absolute;
+                top: -20%;
+                right: 35%;
+                height: 600px;
+                width: 220px;
+                 
+            }
+        }
+
+ 
+
+    }
+
+    .about {
+        color: black;
+        margin-top: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .about__left {
+
+            margin-left: 200px;
+            margin-top: 50px;
+
+            .about__title {
+                
+                margin-top: 50px;
+                font-size: 40px;
+                font-weight: 700;
+            }
+
+            .about__text {
+                width: 550px;
+                margin-top: 40px;
+                font-weight: 300;
+                line-height: 140%;
+                font-size: 20px;
+                line-height: 145%;
+                font-weight: 300;
+
+                span {
+                    font-weight: 400;
+                }
+
+            }
+        }
+
+        .about__img {
+            margin-right: 180px;
+            
+            
+            img {
+                width: 388px;
+                height: 526px;
+
+            }
+        }
+
+
+    }
+
+
+

@@ -1,0 +1,24 @@
+{
+  "name": "si3d",
+  "version": "1.0.0",
+  "description": "Dans le cadre d'un projet scolaire, nous avons eu pour mission de réaliser un site web en y intégrant des élément 3D.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChalalSamir/SI3D.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChalalSamir/SI3D/issues"
+  },
+  "homepage": "https://github.com/ChalalSamir/SI3D#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.18.0"
+  }
+}
